@@ -1,7 +1,11 @@
 # newData_LOW_CARBON_LONDON
 
 This repository collects the data of the UK Power Networks led -- Low Carbon London project [1], which takes places 
-from november 2011 to february 2014, the year 2013 is the trial period for dynamic prices. Each data file is explained below:
+from november 2011 to february 2014, the year 2013 is the trial period for dynamic prices. 
+
+The analysis and interpretation of this data are done to understand the response of consumers to dynamic prices in the supply of electricity, which can help us measure the level of households flexibility and the prediction of user demand according to their characteristics.
+
+Each data file is explained below:
 
 
 1) Power_Networks_LCL[2]: data every half hour that include measures of energy consumption in households taken 
@@ -26,9 +30,9 @@ Database parameters:
 
 The non-TOU group tariff was fixed at 14.28 pence / kWh.
 
-Additionally, we have used in our analysis a database of temperatures [3]:
+Additionally, we have used in our analysis a database of temperatures:
 
-3) Temperature.xlsx: Temperature data recorded every half hour at the London City Airport station during 2013.
+3) Temperature.xlsx[3]: Temperature data recorded every half hour at the London City Airport station during 2013.
 
 
 On the other hand, to facilitate the handling and preparation of the data used in our work, we have generated other databases from the originals. For instance, segmentation and cleansing of data for each ACORN group or data including prices half hourly. If you are interested, let me know and I will be pleased to provide you.
