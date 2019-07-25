@@ -1,4 +1,4 @@
-# newData_LOW_CARBON_LONDON
+# Data_LOW_CARBON_LONDON
 
 This repository collects the data of the UK Power Networks led -- Low Carbon London project [1], which takes places 
 from november 2011 to february 2014, the year 2013 is the trial period for dynamic prices. 
