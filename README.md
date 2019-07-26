@@ -9,7 +9,7 @@ Each data file is explained below:
 
 
 1) Power_Networks_LCL[2]: data every half hour that include measures of energy consumption in households taken 
-by the Smart-meter system and other data associated with each measure, explained below. 
+by the Smart-meter system and other data associated with each measure. 
 
 The original database is outsize, so it has been divided into 168 .csv files in a compressed .zip folder
 
