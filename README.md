@@ -22,7 +22,7 @@ Database parameters:
 	* ACORN: Classification of households according to geo-demographic group (A-Q). 
 	* Acorn_grouped: ACORN groups are grouped into 3 categories: Affluent(A-E), Comfortable(F-J) or Adversity(K-Q).
 
-2) Data_features.xlsx: this file includes input variables used in our analysis and other data generated for aggregate groups of households.
+2) Data_features.xlsx: this file includes input variables used in our analysis and other data generated for aggregate groups of households (year 2013).
 
 --> Price[2]: Data every half hour on tariffs (£) applied to households with dynamic prices during the year of the trial. The dToU system has variations in the price of electricity, it uses three price bands: High, normal, low. The consumer knows the day before the price that will be applied every hour.
 
@@ -35,9 +35,9 @@ The non-TOU group tariff was fixed at 14.28 pence / kWh.
 --> Temperature[3]: Temperature (ªC) data recorded half hourly at the London City Airport station during 2013.
 
 --> Demand: The aggregate demand (kWh/hh) of consumer groups in the experimental group (dtou) during the year 2013. Groups:
-	- 'flex': Average & total aggregate consumption of the most flexible cluster.
-	- 'noflex': Average & total aggregate consumption of other clusters.
-	- 'all': Average & total aggregate consumption of all clusters.
+* 'flex': Average & total aggregate consumption of the most flexible cluster.
+* 'noflex': Average & total aggregate consumption of other clusters.
+* 'all': Average & total aggregate consumption of all clusters.
 
 On the other hand, to facilitate the handling and preparation of the data used in our work, we have generated other databases from the originals. For instance, segmentation and cleansing of data for each ACORN group or data including prices half hourly. If you are interested, let me know and I will be pleased to provide you.
 
